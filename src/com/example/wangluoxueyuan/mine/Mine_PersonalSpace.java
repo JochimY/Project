@@ -1,4 +1,4 @@
-package com.example.wangluoxueyuan.smallclass.ui;
+package com.example.wangluoxueyuan.mine;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,23 +9,23 @@ import android.view.ViewGroup;
 import com.example.wangluoxueyuan.R;
 import com.example.wangluoxueyuan.frame.BaseFragment;
 
-public class SmallClass_Classification extends BaseFragment {
+public class Mine_PersonalSpace extends BaseFragment {
 
 	private View view;
 
-	public SmallClass_Classification() {
+	public Mine_PersonalSpace() {
 
 	}
 
-	public static SmallClass_Classification getInstance(Context context) {
-		SmallClass_Classification fragment = new SmallClass_Classification();
+	public static Mine_PersonalSpace getInstance(Context context) {
+		Mine_PersonalSpace fragment = new Mine_PersonalSpace();
 		return fragment;
 	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		view = inflater.inflate(R.layout.smallclass_classification, container, false);
+		view = inflater.inflate(R.layout.mine_personalspace, container, false);
 		return view;
 	}
 

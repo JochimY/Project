@@ -1,4 +1,4 @@
-package com.example.wangluoxueyuan.mine.ui;
+package com.example.wangluoxueyuan.information;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,23 +9,23 @@ import android.view.ViewGroup;
 import com.example.wangluoxueyuan.R;
 import com.example.wangluoxueyuan.frame.BaseFragment;
 
-public class Mine_PersonalSpace extends BaseFragment {
+public class Information_InformationList extends BaseFragment {
 
 	private View view;
 
-	public Mine_PersonalSpace() {
+	public Information_InformationList() {
 
 	}
 
-	public static Mine_PersonalSpace getInstance(Context context) {
-		Mine_PersonalSpace fragment = new Mine_PersonalSpace();
+	public static Information_InformationList getInstance(Context context) {
+		Information_InformationList fragment = new Information_InformationList();
 		return fragment;
 	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		view = inflater.inflate(R.layout.mine_personalspace, container, false);
+		view = inflater.inflate(R.layout.information_informationlist, container, false);
 		return view;
 	}
 

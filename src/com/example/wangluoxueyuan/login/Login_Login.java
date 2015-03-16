@@ -1,4 +1,4 @@
-package com.example.wangluoxueyuan.login.ui;
+package com.example.wangluoxueyuan.login;
 
 import com.example.wangluoxueyuan.frame.BaseActivity;
 

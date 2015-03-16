@@ -1,4 +1,4 @@
-package com.example.wangluoxueyuan.message.ui;
+package com.example.wangluoxueyuan.smallclass;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,23 +9,23 @@ import android.view.ViewGroup;
 import com.example.wangluoxueyuan.R;
 import com.example.wangluoxueyuan.frame.BaseFragment;
 
-public class Message_MessageList extends BaseFragment {
+public class SmallClass_Classification extends BaseFragment {
 
 	private View view;
 
-	public Message_MessageList() {
+	public SmallClass_Classification() {
 
 	}
 
-	public static Message_MessageList getInstance(Context context) {
-		Message_MessageList fragment = new Message_MessageList();
+	public static SmallClass_Classification getInstance(Context context) {
+		SmallClass_Classification fragment = new SmallClass_Classification();
 		return fragment;
 	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		view = inflater.inflate(R.layout.message_messagelist, container, false);
+		view = inflater.inflate(R.layout.smallclass_classification, container, false);
 		return view;
 	}
 
