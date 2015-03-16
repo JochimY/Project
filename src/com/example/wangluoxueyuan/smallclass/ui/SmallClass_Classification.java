@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.example.wangluoxueyuan.R;
 import com.example.wangluoxueyuan.frame.BaseFragment;
@@ -12,6 +13,7 @@ import com.example.wangluoxueyuan.frame.BaseFragment;
 public class SmallClass_Classification extends BaseFragment {
 
 	private View view;
+	private ListView smallClassLV;
 
 	public SmallClass_Classification() {
 
@@ -26,6 +28,16 @@ public class SmallClass_Classification extends BaseFragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		view = inflater.inflate(R.layout.smallclass_classification, container, false);
+		
+		
+		
+		
+		smallClassLV=(ListView)view.findViewById(R.id.smallClassLV);
+		
+		
+		
+		
+		
 		return view;
 	}
 
