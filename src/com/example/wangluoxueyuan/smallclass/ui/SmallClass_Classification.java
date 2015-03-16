@@ -1,4 +1,4 @@
-package com.example.wangluoxueyuan.book;
+package com.example.wangluoxueyuan.smallclass.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,23 +9,23 @@ import android.view.ViewGroup;
 import com.example.wangluoxueyuan.R;
 import com.example.wangluoxueyuan.frame.BaseFragment;
 
-public class Book_Recommend extends BaseFragment {
+public class SmallClass_Classification extends BaseFragment {
 
 	private View view;
 
-	public Book_Recommend() {
+	public SmallClass_Classification() {
 
 	}
 
-	public static Book_Recommend getInstance(Context context) {
-		Book_Recommend fragment = new Book_Recommend();
+	public static SmallClass_Classification getInstance(Context context) {
+		SmallClass_Classification fragment = new SmallClass_Classification();
 		return fragment;
 	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		view = inflater.inflate(R.layout.book_recommend, container, false);
+		view = inflater.inflate(R.layout.smallclass_classification, container, false);
 		return view;
 	}
 

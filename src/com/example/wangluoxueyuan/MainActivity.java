@@ -3,10 +3,10 @@ package com.example.wangluoxueyuan;
 
 import java.util.ArrayList;
 import com.example.wangluoxueyuan.frame.BaseActivity;
-import com.example.wangluoxueyuan.information.Information_InformationList;
-import com.example.wangluoxueyuan.message.Message_MessageList;
-import com.example.wangluoxueyuan.mine.Mine_PersonalSpace;
-import com.example.wangluoxueyuan.smallclass.SmallClass_Classification;
+import com.example.wangluoxueyuan.information.ui.Information_InformationList;
+import com.example.wangluoxueyuan.message.ui.Message_MessageList;
+import com.example.wangluoxueyuan.mine.ui.Mine_PersonalSpace;
+import com.example.wangluoxueyuan.smallclass.ui.SmallClass_Classification;
 
 import android.os.Bundle;
 import android.app.Activity;

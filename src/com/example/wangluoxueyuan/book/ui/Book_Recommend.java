@@ -1,4 +1,4 @@
-package com.example.wangluoxueyuan.message;
+package com.example.wangluoxueyuan.book.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,23 +9,23 @@ import android.view.ViewGroup;
 import com.example.wangluoxueyuan.R;
 import com.example.wangluoxueyuan.frame.BaseFragment;
 
-public class Message_MessageList extends BaseFragment {
+public class Book_Recommend extends BaseFragment {
 
 	private View view;
 
-	public Message_MessageList() {
+	public Book_Recommend() {
 
 	}
 
-	public static Message_MessageList getInstance(Context context) {
-		Message_MessageList fragment = new Message_MessageList();
+	public static Book_Recommend getInstance(Context context) {
+		Book_Recommend fragment = new Book_Recommend();
 		return fragment;
 	}
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		view = inflater.inflate(R.layout.message_messagelist, container, false);
+		view = inflater.inflate(R.layout.book_recommend, container, false);
 		return view;
 	}
 
