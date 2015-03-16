@@ -1,4 +1,4 @@
-package com.example.wangluoxueyuan.book.ui;
+package com.example.wangluoxueyuan.book;
 
 import android.content.Context;
 import android.os.Bundle;
